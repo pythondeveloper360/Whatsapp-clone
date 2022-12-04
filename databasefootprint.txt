@@ -1,0 +1,22 @@
+--users:
+    --user_id
+    --name
+    --username
+    --password
+--chats
+    --date
+    --time
+    --message
+    --from_user_id
+    --to_user_id
+    --chat_room
+    --read
+--rooms
+    --room_id
+    --date_created
+    --participants
+--logins
+    --date #expire this record after 10 days
+    --user_id
+    --client_id # room_id
+    --token
